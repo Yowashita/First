@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.a1{
+    position: -webkit-sticky; /* Safari用 */
+    position:fixed; /* 要素をスクロールに応じて固定 */
+    top:0; /* 縦スクロールに追従 */
+	z-index: 10;
+    background-color: #b7dff2;
+
+}
+
+
+
+.hr{
+	display: flex;
+	align-items: center;
+	padding-top: 5%;
+	padding-bottom: 20px;
+}
+
+.hr:before,
+.hr:after {
+	content: "";
+	height: 5px;
+	flex-grow: 1;
+	background-color: #92fba7;
+}
+
+.hr:before{
+	margin-right: 1rem;
+	background: linear-gradient(-90deg, #92fba7, transparent);
+}
+
+.hr:after{
+	margin-left: 1rem;
+	background: linear-gradient(90deg, #92fba7, transparent);
+}
+
+.ul1{
+	display: flex;
+	justify-content: center;
+}
+
+.li1{
+	list-style: none;
+}
+
+.ac-img1{
+	display: inline-block;
+}
+
+.B{
+	display: none;
+	background: #92fba7;
+	height: 100px;
+}
+
+.C{
+	display: none;
+}
+
+.under{
+	background: #92fba7;
+	height: 150px;
+}
+
+summary{
+	display: block;
+	list-style: none;
+}
